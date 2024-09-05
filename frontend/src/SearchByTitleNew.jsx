@@ -137,7 +137,7 @@ function SearchByTitleNew() {
     <div className='container-fluid text-center p-0' id='backgroundColor'>
         <div className='row'>
             {!title ? (
-                <h3 className='pt-4'>Search by title</h3>
+                <h3 className='pt-3' id='searchTitle'>Search by title</h3>
             ) : (null)
             }
         </div>
@@ -153,29 +153,17 @@ function SearchByTitleNew() {
         </div>
        
         {!title ? (
-            <div className='row pt-5' style={{width:'1500px'}}>
-                <div className='col-2'>
-                    <img src='https://cdn.kobo.com/book-images/991a4795-830b-43b3-8482-33af4d2482ff/1200/1200/False/metamorphoses-36.jpg' style={{width:'200px', height: '270px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://m.media-amazon.com/images/I/71AsH3txYwL._AC_UF1000,1000_QL80_.jpg' style={{width:'200px', height: '270px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953.jpg' style={{width:'200px', height: '270px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://www.wtsbooks.com/cdn/shop/products/9780199537822_391x.jpg?v=1598630829' style={{width:'200px', height: '270px'}}></img> 
-                </div>
-                <div className='col-2'>
-                    <img src='https://m.media-amazon.com/images/I/71dBIm2xbiL._AC_UF1000,1000_QL80_.jpg' style={{width:'200px', height: '270px'}}></img> 
-                </div>
-                <div className='col-2'>
-                    <img src='https://m.media-amazon.com/images/I/71yV4eBo2fL._AC_UF1000,1000_QL80_.jpg' style={{width:'200px', height: '270px'}}></img> 
-                </div>
+            <div id='images'>
+                <div id='ovid'></div>
+                <div id='oedipus'></div>
+                <div id='tale'></div>
+                <div id='aug'></div>
+                <div id='eliot'></div>
+                <div id='arist'></div>
             </div>
-            ) : (
-                null
-            )}
+        ) : (
+            null
+        )}
 
         
         <div className='row'>

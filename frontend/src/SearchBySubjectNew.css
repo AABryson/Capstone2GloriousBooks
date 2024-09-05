@@ -3,15 +3,62 @@
     background-color: #616E81;
 }
 
-#images {
-    display: flex;
-    overflow-x: auto; 
-    white-space: nowrap; 
-    padding: 0px;
+#searchSubject {
+    font-size: 3vmax;
     margin: 0;
-    width: 1700px;
 }
 
+
+#images {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px !important;
+    margin-top: 3% !important;
+    width: 100% !important;
+    height: 50vmax;
+    justify-content: space-around;
+    
+  }
+  
+  #pol {
+    background-image: url(https://bau.edu/blog/wp-content/uploads/2021/11/political-science-jobs-e1637162577267.jpg);
+    background-size: cover;
+    background-position: 65% 80%;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+    margin-left: 0;
+    padding: 0;
+  } 
+  
+  #fut {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/7t8Mzxv5q8as5LVy2AWdZV-320-80.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+  }
+  
+  #phys {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTc0NDMyOTA5NjM2MTUwOTE4/top-ten-beautiful-physics-equations.png);
+    background-size: cover;
+    background-position: 60% 50%;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+  }
+  
+  #art {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIiO3Ug-A2GVLTyNCUUxVgnZLFAKGnBEf7og&s);
+    background-size: cover;
+    background-position: center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+  } 
+      
 #cardTitle {
     font-family: 'Garamond';
     font-weight: 400;
@@ -31,20 +78,32 @@
 }
 
 #handleSubmit {
+    display: flex;
+    flex-direction: row;
     padding-top: 30px;
-}
-
-#labelSubject {
-    margin-left: 10px;
+    width: 100%;
+  }
+  
+  #labelSubject {
+    display: flex;
+    /* margin-left: 10px; */
     font-size: 24px;
-    font-weight: 500
-}
-
-#inputSubject {
-    margin-left: 15px;
-    width: 400px
-}
-
-#searchButton {
+    font-weight: 500;
+    width: 30%;
+    justify-content: end;
+    padding-right: 3%;
+  
+  }
+  
+  #inputSubject {
+    /* margin-left: 15px; */
+    display: flex;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #searchButton {
     margin-left: 20px;
-}
+  }
+  

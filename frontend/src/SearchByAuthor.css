@@ -2,119 +2,72 @@
 #backgroundColor {
     background-color: #616E81;
   }
-#images {
-  display: flex;
-  overflow-x: auto; /* Allows horizontal scrolling */
-  white-space: nowrap; /* Ensures images stay in a single row */
-  padding: 0px;
-  margin: 0;
-  width: 1700px;
-  
+
+#searchAuthor {
+  font-size: 3vmax;
 }
-  
+
+#images {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0px !important;
+  margin-top: 3% !important;
+  width: 100% !important;
+  height: 50vmax;
+}
+
 #bronte {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSaKrGsvQ7exiJhahoyONqVI1Y6GEW6WCj1squkpSoH-qoBXie-btW17-vakIgh3NKj8&usqp=CAU);
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
+  width: 15vmax;
+  height: 20vmax;
+  margin-top: 1vmax;
+} 
 
 #orwell {
   background-image: url(https://m.media-amazon.com/images/M/MV5BM2QwYmRjOWUtNzE5NS00NzRkLTgwMWQtMjBkNWRlM2JlYjIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg);
   background-size: cover;
   background-position: center center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
-  
-#wilde {
-  background-image: url(https://cdn.theculturetrip.com/images/56-3957087-14428299027277f29189604040ada3fe2c36a1e71c.jpg?s=10x789110/vector/jane-austen.jpg?s=612x612&w=0&k=20&c=XQDc7UYWeoFWFo3vPIKSATwHE_lo1zhohbG4v_t-Vak=);
-  background-size: cover;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
+  width: 15vmax;
+  height: 20vmax;
+  margin-top: 1vmax;
 }
 
-#bronte {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSaKrGsvQ7exiJhahoyONqVI1Y6GEW6WCj1squkpSoH-qoBXie-btW17-vakIgh3NKj8&usqp=CAU);
-  background-size: cover;
-  background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
-  
-#orwell {
-    background-image: url(https://m.media-amazon.com/images/M/MV5BM2QwYmRjOWUtNzE5NS00NzRkLTgwMWQtMjBkNWRlM2JlYjIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg);
-    background-size: cover;
-    background-position: center center;
-    width: 200px;
-    height: 240px;
-    flex-shrink: 0;
-}
-  
 #wilde {
   background-image: url(https://cdn.theculturetrip.com/images/56-3957087-14428299027277f29189604040ada3fe2c36a1e71c.jpg?s=10x789110/vector/jane-austen.jpg?s=612x612&w=0&k=20&c=XQDc7UYWeoFWFo3vPIKSATwHE_lo1zhohbG4v_t-Vak=);
   background-size: cover;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
+  width: 15vmax;
+  height: 20vmax;
+  margin-top: 1vmax;
 }
 
 #milton {
   background-image: url(https://hips.hearstapps.com/hmg-prod/images/john-milton-9409395-1-402.jpg);
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
+  width: 15vmax;
+  height: 20vmax;
+  margin-top: 1vmax;
+} 
 
 #wolfe {
   background-image: url(https://static1.squarespace.com/static/50adfa2ae4b0cc1d786569eb/t/5ea9ef4c2b98ab7e5eb98692/1588195158117/?format=1500w);
   background-size: cover;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
+  width: 15vmax;
+  height: 20vmax;
+  margin-top: 1vmax;
 }
 
 #shelly {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBdfr5YqvEpQM8F-mSfKMFhNbb5yFcK6inrdostS7curt6vhq5ufYQXBQSZD3hNjWAjbw&usqp=CAU);
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
+  width: 15vmax;
+  height: 20vmax; 
+  margin-top: 1vmax;
 }  
-
-#milton {
-  background-image: url(https://hips.hearstapps.com/hmg-prod/images/john-milton-9409395-1-402.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
-
-#wolfe {
-  background-image: url(https://static1.squarespace.com/static/50adfa2ae4b0cc1d786569eb/t/5ea9ef4c2b98ab7e5eb98692/1588195158117/?format=1500w);
-  background-size: cover;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
-
-#shelly {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBdfr5YqvEpQM8F-mSfKMFhNbb5yFcK6inrdostS7curt6vhq5ufYQXBQSZD3hNjWAjbw&usqp=CAU);
-  background-size: cover;
-  background-position: center;
-  width: 200px;
-  height: 240px;
-  flex-shrink: 0;
-}
   
 #cardTitle {
     font-family: 'Garamond';
@@ -135,18 +88,29 @@
 }
 
 #handleSubmit {
+  display: flex;
+  flex-direction: row;
   padding-top: 30px;
+  width: 100%;
 }
 
 #labelAuthor {
-  margin-left: 10px;
+  display: flex;
+  /* margin-left: 10px; */
   font-size: 24px;
-  font-weight: 500
+  font-weight: 500;
+  width: 30%;
+  justify-content: end;
+  padding-right: 3%;
+
 }
 
 #inputAuthor {
-  margin-left: 15px;
-  width: 400px
+  /* margin-left: 15px; */
+  display: flex;
+  width: 40%;
+  margin: 0;
+  padding: 0;
 }
 
 #searchButton {

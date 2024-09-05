@@ -31,7 +31,7 @@ function App() {
       <ContextObject.Provider value={{author, setAuthor, title, setTitle, subject, setSubject, user, setUser, authToken, setAuthToken, books, setBooks, loggedIn, setLoggedIn}}>
         <NavBar />
         <Routes>
-          <Route path='/' element={<HomePage1 />}/>
+          <Route path='/' element={<HomePage1 />} />
           <Route path='/author' element={<SearchByAuthor />} />
           <Route path='/subject' element={<SearchBySubjectNew />} />
           <Route path='/title' element={<SearchByTitleNew />} />

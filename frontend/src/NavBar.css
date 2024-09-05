@@ -1,9 +1,7 @@
 
 #brandName {
-    margin-left: .5vmax;
-
+    margin-left: 1vmax;
 }
-
 
 #navbarNav {
     display: flex;
@@ -12,13 +10,11 @@
 
 #leftTitlesSection {
     width: 30vmax;
-
-
+    margin-left: 1vmax;
 }
 
 #navlink {
     color: white;
-
 }
 
 #googleSignIn {
@@ -26,18 +22,15 @@
     width: 100%;
     height: auto;
     justify-content: end;
-
     padding: 0;
     margin: 0;
 }
 
 #googleLoginButton {
     margin-right: 1vmax;
-  
 }
 
 button {
-    width: 15vmax;
-
+    width: 13vmax;
 }
 

@@ -3,14 +3,81 @@
     background-color: #616E81;
 }
 
-#images {
-    display: flex;
-    overflow-x: auto; 
-    white-space: nowrap; 
-    padding: 0px;
+#searchTitle {
+    font-size: 3vmax;
     margin: 0;
-    width: 1700px;
-}
+  }
+  
+
+  #images {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px !important;
+    margin-top: 3% !important;
+    width: 100% !important;
+    height: 50vmax;
+  }
+
+#ovid {
+    background-image: url(https://cdn.kobo.com/book-images/991a4795-830b-43b3-8482-33af4d2482ff/1200/1200/False/metamorphoses-36.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+  } 
+
+  #oedipus {
+    background-image: url(https://m.media-amazon.com/images/I/71AsH3txYwL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+
+  } 
+
+#tale {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+
+} 
+
+#aug {
+    background-image: url(https://www.wtsbooks.com/cdn/shop/products/9780199537822_391x.jpg?v=1598630829);
+    background-size: cover;
+    background-position: center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+
+} 
+
+#eliot {
+    background-image: url(https://m.media-amazon.com/images/I/71dBIm2xbiL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+
+} 
+
+#arist {
+    background-image: url(https://m.media-amazon.com/images/I/71yV4eBo2fL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 15vmax;
+    height: 20vmax;
+    margin-top: 1vmax;
+
+} 
+
 
 #cardTitle {
     font-family: 'Garamond';
@@ -31,18 +98,28 @@
 }
 
 #handleSubmit {
+    display: flex;
+    flex-direction: row;
     padding-top: 30px;
+    width: 100%;
 }
-
+  
 #labelTitle {
-    margin-left: 10px;
+    display: flex;
+    /* margin-left: 10px; */
     font-size: 24px;
-    font-weight: 500
+    font-weight: 500;
+    width: 30%;
+    justify-content: end;
+    padding-right: 3%;
+  
 }
 
 #inputTitle {
-    margin-left: 15px;
-    width: 400px
+    display: flex;
+    width: 40%;
+    margin: 0;
+    padding: 0;
 }
 
 #searchButton {

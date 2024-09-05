@@ -1,14 +1,8 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import './HomePage1.css'
-import ContextObject from './ContextObject'
-
-
-
 
 function HomePage1 () {
-    // const {authToken} = useContext(ContextObject)
-    // console.log('authToken', authToken)
 
     return (
         <div className='container-fluid p-0' id='containerHome'>

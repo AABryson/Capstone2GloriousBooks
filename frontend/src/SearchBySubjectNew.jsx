@@ -135,7 +135,7 @@ function SearchBySubjectNew() {
     <div className='container-fluid text-center p-0' id='backgroundColor'>
         <div className='row'>
             {!subject ? (
-                <h3 className='pt-4'>Search by subject</h3>
+                <h3 className='pt-4' id='searchSubject'>Search by subject</h3>
             ) : (null)
             }
         </div>
@@ -151,30 +151,15 @@ function SearchBySubjectNew() {
         </div>
        
         {!subject ? (
-            <div className='row pt-5' style={{width:'1500px'}}>
-                <div className='col-2'>
-                    <img src='https://bau.edu/blog/wp-content/uploads/2021/11/political-science-jobs-e1637162577267.jpg' style={{width:'280px', height: '250px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://cdn.mos.cms.futurecdn.net/7t8Mzxv5q8as5LVy2AWdZV-320-80.jpg' style={{width:'270px', height: '250px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://images.saymedia-content.com/.image/t_share/MTc0NDMyOTA5NjM2MTUwOTE4/top-ten-beautiful-physics-equations.png' style={{width:'270px', height: '250px'}} />
-                </div>
-                <div className='col-2'>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIiO3Ug-A2GVLTyNCUUxVgnZLFAKGnBEf7og&s' style={{width:'270px', height: '250px'}}></img> 
-                </div>
-                <div className='col-2'>
-                    <img src='https://historywriterblog.wordpress.com/wp-content/uploads/2014/11/11bayeux.jpg' style={{width:'270px', height: '250px'}}></img> 
-                </div>
-                <div className='col-2'>
-                    <img src='https://cdn.britannica.com/43/190743-050-C507E9DC/Oath-of-the-Tennis-Court-June-20-1789-Jacques-Louis-David-Musee-Carnavalet-Paris.jpg' style={{width:'280px', height: '250px'}}></img> 
-                </div>
+            <div id='images'>
+                <div id='pol'></div>
+                <div id='fut'></div>
+                <div id='phys'></div>
+                <div id='art'></div>
             </div>
             ) : (
-                null
-            )}
-
+            null
+            )}S
         
         <div className='row'>
         {subject ? (
