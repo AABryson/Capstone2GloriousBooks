@@ -21,8 +21,9 @@ const oAuth2Client = new OAuth2Client(
 
 
 app.post('/auth/google', async (req, res) => {
+  console.log('request body code', req.body.code);
   const { tokens } = await oAuth2Client.getToken(req.body.code); // exchange code for tokens
-  console.log(tokens);
+  console.log('Tokens received:', tokens);
   
   res.json(tokens);
 });
